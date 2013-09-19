@@ -12,9 +12,10 @@ Tasks:
 1. Develop the questionnaire - what the questions and answers should be
 	* How many questions? Overall and per page
 	* What are the questions, how many answers per question
-2. Results - Write up description of personalities
+2. Results - Write up description of personality results
 3. Set up database connection
-3. Develop forms for entering question/answers, templates to show surveys.
+4. Write the code for user registration and login/logout
+3. Develop forms for entering question/answers and results text, templates to show surveys.
 	* Can people make their own "quiz" like blogthings?
 	* Is it one standard survey?
 4. Design page layout for surveys and results
@@ -26,10 +27,10 @@ Tasks:
 	* See what jobs or activities are recommended for your personality type
 
 
-##This code base uses these python libraries:
+###This code base uses these python libraries:
 
-Basic Requirements
------------------
+**Basic Requirements**
+
 * [Flask](http://flask.pocoo.org/docs/) Web Framework
 * Flask-SQlalchemy
 * Flask-WTF
@@ -77,7 +78,7 @@ Quick Start
 1. Clone the repo
 
         $ git clone git@github.com:DreamsofPy/Personality_Determination.git
-        $ cd flask-boilerplate
+        $ cd Personality_Determination
 
 2. Initialize and activate a virtualenv:
 
