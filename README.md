@@ -1,24 +1,25 @@
+![Image](http://dreamsofpy.github.io/assets/img/slider/slider1.jpg)
+
 Personality Determination
 =========================
 
-
-This app will help folks determine their personality type. Future goals include social networking component to help users form friendships with complementary and similar personality types.
+This app will help folks determine their personality type. Basic features will allow users to create profiles and create surveys. Advanced features can include social networking component to help users form friendships with complementary and similar personality types.
 
 **User goals:** Complete survey and see results. See what your friends' personality types are.
 
 Tasks:
 
-* Update README file
-* Develop the questionnaire - what the questions and answers should be
+1. Develop the questionnaire - what the questions and answers should be
 	* How many questions? Overall and per page
 	* What are the questions, how many answers per question
-* Description of personalities and celebrities
-* Enter and show the the questions.
+2. Results - Write up description of personalities
+3. Set up database connection
+3. Develop forms for entering question/answers, templates to show surveys.
 	* Can people make their own "quiz" like blogthings?
 	* Is it one standard survey?
-* Design pages for surveys
-* Find staging server, test surveys and collect feedback
-* Future ideas
+4. Design page layout for surveys and results
+5. Upload to staging server, test surveys and collect feedback
+6. Future ideas
 	* See who else has your personality type
 	* See who matches your personality type and location
 	* Communication between different people
@@ -34,15 +35,11 @@ Basic Requirements
 * Flask-WTF
 * MySQL-python==1.2.4
 * Bootstrap
-
-*
 * [Database]() TBD
 
 ## Setup
 
-
-Project Structure
---------
+###Project Structure
 
     ├── Procfile
     ├── Procfile.dev
@@ -100,7 +97,6 @@ Quick Start
 Learn More
 ---------
 
-1. [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/python)
 2. [Flask Documentation](http://flask.pocoo.org/docs/)
 3. [Flask Extensions](http://flask.pocoo.org/extensions/)
 4. [Flask-Boilerplate reference](https://github.com/mjhea0/flask-boilerplate)
